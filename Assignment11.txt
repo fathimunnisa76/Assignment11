@@ -1,0 +1,17 @@
+1. What is data concatination in pandas ?
+A. Combining two or more dataframes into a single dataframe is known as Data 
+   concatenation in pandas.
+2. Types of data concatination in pandas?
+A. There are two types of concatenations available in pandas:
+   1.concating the dataframes one by one (axis=0)
+   2.concating the dataframes side by side (axis=1)
+3. What are the functions available for data concatination/append in pandas?
+A. There are two functions available for data concatination/append in pandas are 
+   1. append()
+      syntax:-
+        df1.append(df2,ignore_index=True/False (False by default),axis=0/1 (0 by 
+        default),sort=True/false (False by default))
+   2. concat()
+      syntax:-
+        pd.concat([df1,df2,....,dfn],axis=0/1(0 by default),ignore_index=True/False(False by 
+        default),keys=[key1,key2,key3,...,keyn])
